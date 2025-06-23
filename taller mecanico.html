@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taller Mecánico y Refacciones Villaseñor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-x..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <img src="C:\Users\PC\Desktop\taller mecanico/tallerlogo.png" alt="Logo del taller" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ <style>
+    @media screen and (max-width: 768px) {
+      .header-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+      }
+
+      .service-list, .gallery-grid {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+      }
+
+      .logo {
+        height: 50px;
+        margin-bottom: 10px;
+      }
+
+      .hero h1 {
+        font-size: 2em;
+      }
+
+      .gallery-grid img {
+        height: 160px;
+      }
+
+      form {
+        width: 100%;
+        padding: 0 10px;
+      }
+    }
+  </style>
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h1>Bienvenido a Taller Mecánico y Refacciones Villaseñor</h1>
+      <p>Soluciones rápidas, confiables y a buen precio para tu vehículo.</p>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="service-list">
+        <div class="service-item">
+          <h3>Alineación y Balanceo</h3>
+          <p>Descripción del servicio.</p>
+        </div>
+        <div class="service-item">
+          <h3>Diagnóstico Computarizado</h3>
+          <p>Descripción del servicio.</p>
+        </div>
+        <div class="service-item">
+          <h3>Cambio de Aceite</h3>
+          <p>Descripción del servicio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="about">
+    <div class="container">
+      <h2>¿Quiénes somos?</h2>
+      <p>El Taller Mecánico Villaseñor, ubicado en Ojuelos de Jalisco, ofrece servicios de reparación y mantenimiento de vehículos automotrices. Cuenta con una calificación general de 4,5 sobre 5, basada en 12 reseñas positivas de clientes. El personal del taller es altamente calificado y experimentado, y está comprometido a brindar un servicio de atención al cliente personalizado y eficiente. El taller ofrece una amplia gama de servicios, desde cambios de aceite y afinamiento de motor hasta reparaciones importantes de transmisión y dirección.</p>
+    </div>
+  </section>
+
+  <section id="galeria" class="gallery">
+    <div class="container">
+      <h2>Galería</h2>
+      <div class="gallery-grid">
+        <img src="C:\Users\PC\Desktop\taller mecanico/taller 1.jpg" alt="Imagen del taller">
+        <img src="C:\Users\PC\Desktop\taller mecanico/taller 2.jpg" alt="Imagen del taller">
+        <img src="C:\Users\PC\Desktop\taller mecanico/taller 3.jpg" alt="Imagen del taller">
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form>
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Dirección:</strong> Calle Javier Mina 02, Colonia Centro, Ojuelos de Jalisco</p>
+        <p><strong>Teléfono:</strong>4968510175</p>
+        <p><strong>Correo:</strong> mariovo52@gmail.com</p>
+        <p><strong>Horario:</strong> Lunes a Sábado de 10am a 8pm</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="social">
+    <div class="container">
+      <h3>Síguenos en redes sociales</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/p/Servicio-Y-Refacciones-Villase%C3%B1or-100048592186233/"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/4961156412 target="_blank rel="noopener"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Taller Mecánico y Refacciones Villaseñor. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
